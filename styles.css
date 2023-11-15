@@ -88,9 +88,6 @@
     box-shadow: 0 0 10px 2px #ffffff;
   }
 
-#photodemoi {
-  width : 200px!important;
-}
 
 
   #parcours {
@@ -139,7 +136,8 @@
     left: 0px;
     background-color: rgba(255, 255, 255, 0.9);
     border-bottom-left-radius: 0!important;
-    width:50vw;
+    min-width:200px! important;
+    width:50vw!important;
     border-top-left-radius: 0!important;
   }
     
@@ -616,7 +614,7 @@
   #photodemoi {
     position:relative;
     width:50%;
-    min-width: 150px;
+    min-width: 100px;
     border-radius:50%;
     transition: ease-in-out 0.5s;
     border:2px solid #ff9100;
