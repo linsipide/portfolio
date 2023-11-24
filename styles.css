@@ -766,12 +766,19 @@
     top:0.3em;
   }
 
+  #iconHTB {
+    filter:brightness(0.6) saturate(0) contrast(1000%) invert(1) ;
+  }
 
   .icon2  {
     filter : invert(1);
     height:3em;
     position:relative;
     margin : 1em 0 1em 0;
+  }
+
+  #iconBASH {
+    filter : none;
   }
 
   .icon2:hover {
@@ -797,6 +804,8 @@
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(20deg) brightness(150%) contrast(100%);
     animation: colors 5s linear infinite;
   }
+
+  
 
   .outbox {
     color:white;
