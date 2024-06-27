@@ -721,8 +721,8 @@ presentationButton.addEventListener("click", function() {
 
   pageCount = 0;
 
-
   buttonRight3.style.opacity = "1";
+  buttonLeft1.style.opacity = "0";
 
   console.log(pageCount);
 
