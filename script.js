@@ -88,8 +88,6 @@ function pageRoll() {
         }
       
 
-    buttonLeft1.style.opacity = "0";
-
     textBox1.style.display = "block";
     textBoks1.style.display = "none";
     openMyDiv(presentation);
