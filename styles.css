@@ -391,8 +391,8 @@
     overflow:hidden;
     transition:ease-in-out 2s;
     color:black;
-    padding:20px 40px 20px 40px;
-    border-radius: 20px;
+    padding:10px 40px 10px 40px;
+    border-radius: 2px;
     aspect-ratio: 1.5 / 1;
   }
 
@@ -496,6 +496,7 @@
     height:100%;
     width:100%;
     overflow: auto;
+    font-size : 14px;
     background-color: transparent;
     transition:ease 0.5s;
     display: block;
@@ -515,6 +516,7 @@
     height:100%;
     width:100%;
     overflow: auto;
+    font-size : 14px;
     background-color: transparent;
     transition: ease 0.5s;
     justify-content: center;
@@ -626,7 +628,7 @@
 
   #photodemoi {
     position:relative;
-    width:50%;
+     width:50%;
     min-width: 100px;
     border-radius:50%;
     transition: ease-in-out 0.5s;
