@@ -150,6 +150,9 @@
     .articleitem {
       top:0!important;
       bottom:0;
+      justify-content: space-around!important;
+      gap:0! important;
+      aspect-ratio: 1 / 1! important;
     }
     
   body { 
@@ -379,7 +382,7 @@
     position:absolute;
     max-width:70vw;
     max-height:70vh;
-    top:15vh;
+    top:20vh;
     display:flex;
     flex-direction: row;
     margin:auto;
@@ -390,7 +393,7 @@
     color:black;
     padding:20px 40px 20px 40px;
     border-radius: 20px;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1.5 / 1;
   }
 
   .blurred {
